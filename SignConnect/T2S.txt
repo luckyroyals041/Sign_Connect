@@ -1,0 +1,33 @@
+Text_to_Sign
+
+1. Preprocessing:
+   - Take the input text (spoken language) and preprocess it:
+     - Remove punctuation.
+     - Tokenize the text into words or phrases.
+     - Normalize the text (e.g., convert to lowercase).
+
+2. Translation Mapping:
+   - Create a mapping between words or phrases in the spoken language and their corresponding signs in sign language.
+   - This mapping can be manually curated or learned from a dataset.
+
+3. Sign Language Representation:
+   - Represent signs using a suitable notation (e.g., SignWriting, Pose Sequence, etc.).
+   - Each sign corresponds to a specific hand gesture or movement.
+
+4. Text-to-Sign Conversion:
+   - For each word or phrase in the input text:
+     - Look up the corresponding sign(s) from the translation mapping.
+     - Combine the signs to form a complete sign sequence.
+
+5. Visualization or Animation:
+   - Display the sign sequence visually:
+     - Use a 3D avatar or skeleton viewer to show the sign gestures.
+     - Animate the avatar's hands and body to mimic the sign language.
+
+Source: 
+
+(1) Sign Language to Text Conversion - GitHub. https://github.com/emnikhil/Sign-Language-To-Text-Conversion.
+(2) Neural machine translation from text to sign language. https://link.springer.com/article/10.1007/s10209-023-01018-6.
+(3) Text2Sign: Towards Sign Language Production Using Neural ... - Springer. https://link.springer.com/article/10.1007/s11263-019-01281-2.
+(4) Effortless Real-Time Sign Language Translation - GitHub. https://github.com/sign/translate.
+(5) sign-language-recognition-system · GitHub Topics · GitHub. https://github.com/topics/sign-language-recognition-system.

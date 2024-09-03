@@ -1,0 +1,19 @@
+Sign_to_Audio
+
+1. **Sign Language Recognition**:
+   - Capture the sign language input (e.g., video of hand gestures).
+   - Use computer vision techniques (such as Convolutional Neural Networks, CNNs) to recognize the signs.
+   - Map each recognized sign to its corresponding word or phrase in spoken language.
+
+2. **Text-to-Speech (TTS) Conversion**:
+   - Once you have the recognized text, use a TTS engine (such as Google Text-to-Speech, gTTS) to convert the text into audio.
+   - TTS engines generate natural-sounding speech from written text.
+
+3. **Audio Playback**:
+   - Play the generated audio to provide the spoken language equivalent of the sign language input.
+
+Source: 
+(1) Real-time Conversion of Sign Language to Text and Speech, and ... - JETIR. https://www.jetir.org/papers/JETIR2311332.pdf.
+(2) Conversion of Sign Language to Text and Audio Using Deep ... - Springer. https://link.springer.com/chapter/10.1007/978-981-19-9888-1_21.
+(3) Sign Language to Speech Conversion - GitHub. https://github.com/beingaryan/Sign-To-Speech-Conversion.
+(4) Sign Language to Text and Speech Translation in Real Time Using .... https://www.ijert.org/sign-language-to-text-and-speech-translation-in-real-time-using-convolutional-neural-network.

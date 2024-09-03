@@ -1,0 +1,19 @@
+Sure! Here are the key steps summarized from the tutorial on building an American Sign Language translator:
+
+1. Creating the Project and Installing Dependencies :
+   - Create a workspace and install necessary packages like PyTorch, OpenCV, numpy, and onnx.
+
+2. Preparing the Sign Language Classification Dataset :
+   - Download and preprocess the dataset, create a PyTorch Dataset class, and apply data augmentation.
+
+3. Building and Training the Sign Language Classifier Using Deep Learning :
+   - Define a neural network, set up a loss function and optimizer, and train the model.
+
+4. Evaluating the Sign Language Classifier :
+   - Evaluate the model's accuracy on the validation set and export the trained model to ONNX format.
+
+5. Linking the Camera Feed :
+   - Use the trained model to classify sign language from webcam input in real-time.
+
+Source :
+(1) Real-time Conversion of Sign Language to Text : https://www.digitalocean.com/community/tutorials/how-to-build-a-neural-network-to-translate-sign-language-into-english

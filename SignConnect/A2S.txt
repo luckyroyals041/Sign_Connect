@@ -1,0 +1,42 @@
+Audio_to_Sign
+
+1. Audio Preprocessing:
+   - Capture the audio input (spoken language).
+   - Convert the audio signal to a digital representation (e.g., waveform or spectrogram).
+
+2. Speech Recognition:
+   - Use automatic speech recognition (ASR) to transcribe the spoken language into text.
+   - ASR models can be trained using deep learning techniques (e.g., recurrent neural networks, transformer-based models).
+
+3. Natural Language Processing (NLP):
+   - Process the transcribed text:
+     - Tokenize the text into words or phrases.
+     - Remove punctuation and normalize the text.
+
+4. Translation Mapping:
+   - Create a mapping between words or phrases in the spoken language and their corresponding signs in sign language.
+   - This mapping can be manually curated or learned from a dataset.
+
+5. Sign Language Representation:
+   - Represent signs using a suitable notation (e.g., SignWriting, Pose Sequence, etc.).
+   - Each sign corresponds to a specific hand gesture or movement.
+
+6. Text-to-Sign Conversion:
+   - For each word or phrase in the transcribed text:
+     - Look up the corresponding sign(s) from the translation mapping.
+     - Combine the signs to form a complete sign sequence.
+
+7. Visualization or Animation:
+   - Display the sign sequence visually:
+     - Use a 3D avatar or skeleton viewer to show the sign gestures.
+     - Animate the avatar's hands and body to mimic the sign language.
+
+
+
+Source: 
+
+(1) Audio to Sign language Using NLTK - JETIR. https://www.jetir.org/papers/JETIR2306484.pdf.
+(2) satyam9090/Automatic-Indian-Sign-Language-Translator-ISL. https://github.com/satyam9090/Automatic-Indian-Sign-Language-Translator-ISL.
+(3) Audio to Sign Language Translator - GitHub. https://github.com/sahilkhoslaa/AudioToSignLanguageConverter.
+(4) Audio To Sign Language Converter Using Python. https://sifisheriessciences.com/index.php/journal/article/download/1233/615/1381.
+(5) varaprasadtarunkumar/AUDIO-OR-TEXT-TO-SIGN-LANGUAGE-CONVERTER ... - GitHub. https://github.com/varaprasadtarunkumar/AUDIO-OR-TEXT-TO-SIGN-LANGUAGE-CONVERTER-USING-NLP.
